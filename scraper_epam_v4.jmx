@@ -445,7 +445,15 @@ vars.putObject(&quot;jobList&quot;,jobList);</stringProp>
               <stringProp name="RESPONSE_CODE">200</stringProp>
               <stringProp name="RESPONSE_MESSAGE">OK</stringProp>
               <stringProp name="REQUEST_DATA"></stringProp>
-              <stringProp name="RESPONSE_DATA">{&quot;id&quot;:&quot;${__UUID}&quot;,&quot;job_title&quot;:&quot;${__V(title_${k},)}&quot;,&quot;job_link&quot;:&quot;${__V(link_${k},)}&quot;,&quot;company&quot;:&quot;${company}&quot;,&quot;country&quot;:&quot;${__V(country_${k},)}&quot;,&quot;city&quot;:&quot;${ccity}&quot;}</stringProp>
+              <stringProp name="RESPONSE_DATA">{
+        &quot;id&quot;:&quot;${__UUID}&quot;,
+        &quot;job_title&quot;:&quot;${__V(title_${k},)}&quot;,
+        &quot;job_link&quot;:&quot;${__V(link_${k},)}&quot;,
+        &quot;company&quot;:&quot;${company}&quot;,
+        &quot;country&quot;:&quot;${__V(country_${k},)}&quot;,
+        &quot;city&quot;:&quot;${ccity}&quot;
+       
+      }</stringProp>
               <stringProp name="RESPONSE_TIME">0</stringProp>
               <stringProp name="LATENCY">0</stringProp>
               <stringProp name="CONNECT">0</stringProp>
