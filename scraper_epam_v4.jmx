@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.5">
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.4.3">
   <hashTree>
     <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="career_epam" enabled="true">
       <stringProp name="TestPlan.comments"></stringProp>
@@ -484,7 +484,7 @@ vars.putObject(&quot;jobList&quot;,jobList);</stringProp>
               <stringProp name="RESPONSE_MESSAGE">OK</stringProp>
               <stringProp name="REQUEST_DATA"></stringProp>
               <stringProp name="RESPONSE_DATA">{
-        &quot;id&quot;:&quot;${__UUID}&quot;,
+        
         &quot;job_title&quot;:&quot;${__V(title_${k},)}&quot;,
         &quot;job_link&quot;:&quot;${__V(link_${k},)}&quot;,
         &quot;company&quot;:&quot;${company}&quot;,
